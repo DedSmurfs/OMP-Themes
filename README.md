@@ -1,6 +1,6 @@
 # Powershell
 
-`oh-my-posh init pwsh --config 'https://github.com/DedSmurfs/OMP-Themes/blob/main/pwsh-theme.json' | Invoke-Expression`
+`oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/DedSmurfs/OMP-Themes/refs/heads/main/pwsh-theme.json' | Invoke-Expression`
 
 # Bash / WSL
 
