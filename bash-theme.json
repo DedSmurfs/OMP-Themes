@@ -113,7 +113,6 @@
           "template": " \ue77f {{ if .Unsupported }}\uf071{{ else }}{{ .Full }}{{ end }}<#7a7a7a> \ue0b3</>",
           "type": "dotnet"
         },
-
         {
           "background": "#2f2f2f",
           "foreground": "#9FD356",
@@ -130,7 +129,17 @@
             "display_error": true
           }
         },
-
+        {
+          "background": "#2f2f2f",
+          "foreground": "#FFCE5C",
+          "style": "diamond",
+          "template": " {{ .FormattedMs }}<#fafafa> \uf252<#7a7a7a> \ue0b3</>",
+          "type": "executiontime",
+          "properties": {
+            "style": "roundrock",
+            "threshold": 500
+          }
+        },
         {
           "background": "#2f2f2f",
           "foreground": "#fafafa",
@@ -166,16 +175,6 @@
           "style": "plain",
           "template": " \u276e ",
           "type": "text"
-        },
-        {
-          "foreground": "#FFCE5C",
-          "properties": {
-            "style": "roundrock",
-            "threshold": 500
-          },
-          "style": "plain",
-          "template": " {{ .FormattedMs }}<#fafafa> \uf252 </>",
-          "type": "executiontime"
         },
         {
           "foreground": "#9FD356",
